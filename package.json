@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -r index.html manifest.webmanifest icon.svg sw.js src dist/ && touch dist/.nojekyll",
+    "start": "python3 -m http.server 4173 --bind 0.0.0.0",
+    "preview": "python3 -m http.server 4173 --bind 0.0.0.0 -d dist",
+    "pages:url": "node scripts/pages-url.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
