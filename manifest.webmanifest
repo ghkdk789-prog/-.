@@ -1,0 +1,1 @@
+{"name":"Архив Разбитой души","short_name":"Архив","description":"Личный PWA-архив для структуры серии книг.","start_url":"./","scope":"./","display":"standalone","background_color":"#090a0d","theme_color":"#1c2537","orientation":"portrait-primary","lang":"ru","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}

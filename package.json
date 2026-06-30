@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "mkdir -p dist && cp -r index.html manifest.webmanifest icon.svg sw.js src dist/",
+    "start": "python3 -m http.server 4173",
+    "preview": "python3 -m http.server 4173 -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
